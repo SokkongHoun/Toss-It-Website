@@ -1,0 +1,58 @@
+.body-content {
+  width: 800px;
+  background-color: #e4e4e7;
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+}
+.body-content h1,
+.body-content p,
+.body-content button {
+  margin: 20px 0px 20px 0px;
+}
+.body-content h1 {
+  font-size: 2.082rem;
+  letter-spacing: 2px;
+}
+.body-content p {
+  font-size: 0.885rem;
+}
+.body-content button {
+  width: 170px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.body-menu-right {
+  background-color: #252c2a;
+  position: absolute;
+  right: -80px;
+  top: 40px;
+
+  width: 170px;
+}
+.body-menu-left {
+  position: absolute;
+  left: -100px;
+  background-color: #252c2a;
+  width: 160px;
+}
+.border-right {
+  width: 160px;
+  height: 160px;
+  right: 20px;
+  height: 200px;
+  top: 17px;
+  border: solid;
+  position: absolute;
+}
+.body-menu-right img,
+.body-menu-left img {
+  width: 200px;
+  object-fit: contain;
+  position: relative;
+}
