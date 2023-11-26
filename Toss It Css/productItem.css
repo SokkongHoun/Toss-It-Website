@@ -1,0 +1,58 @@
+.menu-item {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.collection-menu-container {
+  display: flex;
+  justify-content: center;
+}
+.menu-control-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 881px;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 1px;
+  background: #e4e4e7;
+}
+.product-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+  margin: 10px;
+  border-color: rgb(83, 83, 83);
+}
+.item-name-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+.discount-price {
+  text-align: right;
+  color: red;
+  font-size: 0.886rem;
+}
+.order-now-btn {
+  background-color: #04643b;
+  border: none;
+  font-size: 0.775rem;
+  width: 250px;
+  height: 30px;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0px 0px 0px;
+}
+.see-more-btn {
+  background-color: black;
+  border: none;
+  width: 200px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.7rem;
+}

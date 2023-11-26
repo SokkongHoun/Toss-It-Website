@@ -8,14 +8,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .main-container {
-  display: block;
   margin: auto;
   max-width: 1100px;
-  outline: none;
   background-color: #e4e4e7;
   writing-mode: horizontal-tb;
   width: 100%;
-  height: 1000px;
+  height: 2000px;
 
   background-image: linear-gradient(
       #010101 0.5px,
@@ -30,7 +28,7 @@ body {
       transparent calc(100% - 0.5px),
       #010101 calc(100% - 0.5px)
     );
-  background-size: 10% 13%;
+  background-size: 10% 8%;
   border: 0px solid #010101;
 }
 .Toss-it-logo {
@@ -50,8 +48,4 @@ body {
   text-decoration: underline #2da44d;
   transition: all 0.3s;
   color: #2da44d;
-}
-.main-container main {
-  display: flex;
-  justify-content: center;
 }
