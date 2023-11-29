@@ -35,3 +35,138 @@ export const SaladMenu = [
     img: "Menu/Our Salads/Toss It Surprise Salad.png",
   },
 ];
+
+export const WrapMenu = [
+  {
+    id: "akckvkjxkcvkk381",
+    name: "Vegan Burrito",
+    discountPriceCents: "390",
+    priceCents: "780",
+    img: "Menu/Our Wrap/W1. Vegan Burrito.png",
+  },
+  {
+    id: "xmncv94kdl2902kf",
+    name: "Falafel and Hummus Wrap",
+    discountPriceCents: "690",
+    priceCents: "345",
+    img: "Menu/Our Wrap/W2. Falafel and hummus.png",
+  },
+  {
+    id: "vcmbniue9824523fv",
+    name: "Egg Mayo Wrap",
+    discountPriceCents: "610",
+    priceCents: "305",
+    img: "Menu/Our Wrap/W3. Egg Mayo Wrap.png",
+  },
+  {
+    id: "c,mcxhvkj*$KLJLKJ1",
+    name: "Greek Wrap",
+    discountPriceCents: "610",
+    priceCents: "305",
+    img: "Menu/Our Wrap/W4. Greek Wrap.png",
+  },
+  {
+    id: "LKJHJkdshkgf823>$%",
+    name: "Build Your Own Wrap",
+    discountPriceCents: "0.00",
+    priceCents: "100",
+    img: "Menu/Our Wrap/Build your own wrap.png",
+  },
+];
+
+export const mueslisMenu = [
+  {
+    id: "muelsijdkfjheuu124$",
+    name: "Vegan Nuts",
+    discountPriceCents: "550",
+    priceCents: "275",
+    img: "Menu/Our Mueslis/M1. Mueslis Vegan Nuts.png",
+  },
+  {
+    id: "x,mcvkjsgdui328*&$@",
+    name: "Fruits & Berries Muesli",
+    discountPriceCents: "775",
+    priceCents: "388",
+    img: "Menu/Our Mueslis/M2. Fruits & Berries Muesli.png",
+  },
+  {
+    id: "mc,bvz*^Y$HJKJsuhjfd",
+    name: "Power Protein Muesli",
+    discountPriceCents: "850",
+    priceCents: "425",
+    img: "Menu/Our Mueslis/M3. Protein-Packed Power Muesli.png",
+  },
+  {
+    id: "()*$@nksajdimxcoiajd)",
+    name: "Make Your Own Muesli",
+    discountPriceCents: "0",
+    priceCents: "0",
+    img: "Menu/Our Mueslis/Make your own Mueslis.png",
+  },
+];
+
+export const sidesMenu = [
+  {
+    id: "sidekdskjfskj1234&^@",
+    name: "Egg Mayo",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Egg Mayo.png",
+  },
+  {
+    id: "sidejkndkv73*(&&@UHjk",
+    name: "Falafel",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Falafel.png",
+  },
+  {
+    id: "sidemlkdnv8745tnj&*(@",
+    name: "Feta cheese",
+    discountPriceCents: "600",
+    priceCents: "300",
+    img: "Menu/Sides/Feta Cheese.png",
+  },
+  {
+    id: "sidejvcvbyj346688i456t",
+    name: "Guacamole",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Guacamole.png",
+  },
+  {
+    id: "sideO&(*&$(#Hncdxkvjou",
+    name: "Hummus",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Hummus.png",
+  },
+  {
+    id: "sidejKJNCY&*#@983749826",
+    name: "Nachos",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Nachos.png",
+  },
+  {
+    id: "sidej,mvcnj27^^UH@#Nsdf",
+    name: "Refried Bean",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Refried Bean.png",
+  },
+  {
+    id: "sideHKLJ:&*^#$*@#$kfdv3",
+    name: "Spicy Sesame Tofu",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Spicy Sesame Tofu.png",
+  },
+  {
+    id: "side9KI#*^*&@^#&$#@$sas",
+    name: "Tomato Salsa",
+    discountPriceCents: "200",
+    priceCents: "100",
+    img: "Menu/Sides/Tomato Salsa.png",
+  },
+];
