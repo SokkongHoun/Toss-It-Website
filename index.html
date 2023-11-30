@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="Toss It Css/navbar.css" />
     <link rel="stylesheet" href="Toss It Css/bodycontent.css">
     <title>Crafty-Trade</title>
@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="Toss It Css/middleNavBar.css">
     <link rel="stylesheet" href="Toss It Css/productItem.css">
+    <link rel="stylesheet" href="Toss It Css/customerReview.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <div class="main-container">
@@ -86,10 +88,52 @@
           <div class="menu-control-item-container js-menu-control-item-container">
           </div>
         </div>
-        <div class="show-more-btn-container"><Button class="show-more-btn js-show-more-btn">Show More</Button></div>
+        <div class="show-more-btn-container">
+          <button class="show-more-btn js-show-more-btn">Show More</button>
+        </div>
+        <div class="paragraph-container">
+          <div class="chef-image-container">
+            image
+          </div>
+          <div>
+            <H1>You pick, We cook. <br>They delights</H1>
+            <div class="writing-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. 
+                <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="learn-more-btn-container"><button class="learn-more-btn">Learn More</button></div>
+          </div>
+        </div>
+        <div class="customer-review-container">
+          <div><h1>Customer Review</h1></p></div>
+          <div class="customer-review-content-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+                <div class="swiper-slide"><p>Our Customer</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
+      <nav class="bottom-nav-bar">
+        <div>Home</div>
+        <div>Contact</div>
+        <div>Logo</div>
+        <div>Social Media</div>
+        <div>Services</div>
+      </nav>
     </div>
     <script type="module" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slide.js"></script>
   </body>
 </html>
-<!-- render the HTML page without reloading the page for example, create an html page link to the salad, wrap and side section add the event listener to it so everytime a customer click on it, it will go directly to that page, save those interaction inside a function so you can reuse it to update the HTML page -->

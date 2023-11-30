@@ -13,7 +13,7 @@ body {
   background-color: #e4e4e7;
   writing-mode: horizontal-tb;
   width: 100%;
-  height: 2000px;
+  height: 3000px;
 
   background-image: linear-gradient(
       #010101 0.5px,
@@ -28,7 +28,7 @@ body {
       transparent calc(100% - 0.5px),
       #010101 calc(100% - 0.5px)
     );
-  background-size: 10% 8%;
+  background-size: 8% 6%;
   border: 0px solid #010101;
 }
 .Toss-it-logo {
@@ -48,4 +48,8 @@ body {
   text-decoration: underline #2da44d;
   transition: all 0.3s;
   color: #2da44d;
+}
+.bottom-nav-bar {
+  display: flex;
+  justify-content: space-around;
 }

@@ -37,7 +37,6 @@ function renderSaladPage() {
     saladHTML;
 }
 renderSaladPage();
-
 document.querySelector(".js-salad").addEventListener("click", () => {
   renderSaladPage();
 });
@@ -77,7 +76,6 @@ function renderWrapPage() {
   document.querySelector(".js-menu-control-item-container").innerHTML =
     wrapHTML;
 }
-
 document.querySelector(".js-wrap").addEventListener("click", () => {
   renderWrapPage();
 });
@@ -119,7 +117,6 @@ function renderMuesliPage() {
   document.querySelector(".js-menu-control-item-container").innerHTML =
     muesliHTML;
 }
-
 document.querySelector(".js-muesli").addEventListener("click", () => {
   renderMuesliPage();
 });
@@ -161,7 +158,6 @@ function renderSidesPage() {
   document.querySelector(".js-menu-control-item-container").innerHTML =
     sideHTML;
 }
-
 document.querySelector(".js-sides").addEventListener("click", () => {
   renderSidesPage();
 });

@@ -23,3 +23,5 @@ image: max-width: 100%;
 max-height: 120px;
 margin-left: auto;
 margin-right: auto;
+
+collection-menu-container .menu-control-item-container
