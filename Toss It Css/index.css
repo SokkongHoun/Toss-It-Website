@@ -1,0 +1,118 @@
+.landing-screen-container {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 626px) {
+  .landing-screen-container {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 626px) {
+  .body-text-container {
+    text-align: center;
+  }
+}
+.explore-btn {
+  border: none;
+  background-color: #39db4a;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.866rem;
+  height: 40px;
+  width: 100px;
+  box-shadow: 0px 8px 15px rgba(32, 182, 47, 0.274);
+}
+.landing-screen-img-container {
+  width: 350px;
+  align-items: center;
+}
+@media only screen and (max-width: 626px) {
+  .landing-screen-img-container {
+    margin-top: 20px;
+    width: 300px;
+    align-items: center;
+  }
+}
+.landing-screen-img {
+  width: 100%;
+}
+.small-menu-body {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: -20px;
+}
+.landing-model-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  width: 150px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.39);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.4px);
+  -webkit-backdrop-filter: blur(7.4px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+.menu-body-container p {
+  font-size: 8px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.body-menu {
+  width: 35px;
+}
+.img-menu-container {
+  width: 40px;
+}
+.img-menu-container img {
+  width: 100%;
+}
+.menu-text-container .name {
+  margin-bottom: 5px;
+}
+.category-x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category-x-img {
+  width: 130px;
+}
+.category-x-1 {
+  text-align: center;
+  margin: 20px 10px 0px 10px;
+  padding: 20px 20px 0px 20px;
+  background: rgba(255, 255, 255, 0.53);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+@media only screen and (max-width: 626px) {
+  .category-x-1 img {
+    width: 80px;
+  }
+}
+.category-x-1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.social-media a,
+.nav-tool a {
+  text-decoration: none;
+  color: black;
+}
