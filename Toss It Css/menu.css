@@ -1,0 +1,48 @@
+.menu-nav a {
+  text-decoration: none;
+  color: black;
+}
+.menu-nav a:hover {
+  color: green;
+}
+.menu-container {
+  margin-top: 40px;
+}
+.row-item-x {
+  gap: 10px;
+}
+.item-x {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.4px);
+  -webkit-backdrop-filter: blur(8.4px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+}
+.menu-name-x {
+  margin-top: 10px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: calc(10px + 0.5vw);
+}
+.menu-price-x {
+  margin-top: -10px;
+  font-size: 14px;
+}
+.btm-nav {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.btm-nav a {
+  text-decoration: none;
+  color: black;
+}
