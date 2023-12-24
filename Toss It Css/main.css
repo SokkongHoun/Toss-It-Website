@@ -1,5 +1,36 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Poppins";
+}
+.btm-nav {
+  padding: 20px;
+  background-color: rgb(31, 31, 31);
+  color: rgb(230, 230, 230);
+}
+.btm-nav a {
+  margin: 5px;
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+  display: block;
+}
+.btm-nav a:hover {
+  color: rgb(98, 255, 98);
+}
+.social-media-btm-nav {
+  margin-top: 15px;
+}
+.social-media-btm-nav a {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  .btm-nav .tossitlogo {
+    width: 70px;
+  }
+  .social-media-btm-nav img {
+    width: 20px;
+  }
+  .btm-nav {
+    font-size: 13px;
+  }
 }

@@ -1,0 +1,8 @@
+.sustainability-container .row .col img {
+  width: 100px;
+}
+.sustainability-container .row .col {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+}

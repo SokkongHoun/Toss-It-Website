@@ -37,12 +37,3 @@
   margin-top: -10px;
   font-size: 14px;
 }
-.btm-nav {
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-}
-.btm-nav a {
-  text-decoration: none;
-  color: black;
-}
