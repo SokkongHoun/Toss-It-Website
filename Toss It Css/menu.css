@@ -11,6 +11,24 @@
 .row-item-x {
   gap: 10px;
 }
+.container .deliver-container {
+  margin-top: 50px;
+}
+.deliver-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+.deliver-btn button {
+  border: none;
+  background-color: #39db4a;
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  height: 40px;
+  width: 140px;
+  box-shadow: 0px 8px 15px rgba(32, 182, 47, 0.274);
+  text-decoration: none;
+}
 .item-x {
   display: flex;
   text-align: center;

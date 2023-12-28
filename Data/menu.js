@@ -27,13 +27,6 @@ export const SaladMenu = [
     priceCents: "910",
     img: "/Menu/Our Salads/S4. Pasta Medley Salad.png",
   },
-  {
-    id: "sad897435ujkre,f",
-    name: "Build your own salad",
-    discountPriceCents: "0",
-    priceCents: "0",
-    img: "/Menu/Our Salads/Toss It Surprise Salad.png",
-  },
 ];
 
 export const WrapMenu = [
@@ -65,13 +58,6 @@ export const WrapMenu = [
     priceCents: "305",
     img: "/Menu/Our Wrap/W4. Greek Wrap.png",
   },
-  {
-    id: "LKJHJkdshkgf823>$%",
-    name: "Build Your Own Wrap",
-    discountPriceCents: "0.00",
-    priceCents: "100",
-    img: "/Menu/Our Wrap/Build your own wrap.png",
-  },
 ];
 
 export const mueslisMenu = [
@@ -95,13 +81,6 @@ export const mueslisMenu = [
     discountPriceCents: "850",
     priceCents: "425",
     img: "/Menu/Our Mueslis/M3. Protein-Packed Power Muesli.png",
-  },
-  {
-    id: "()*$@nksajdimxcoiajd)",
-    name: "Make Your Own Muesli",
-    discountPriceCents: "0",
-    priceCents: "0",
-    img: "/Menu/Our Mueslis/Make your own Mueslis.png",
   },
 ];
 

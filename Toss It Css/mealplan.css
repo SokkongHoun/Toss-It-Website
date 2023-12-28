@@ -132,3 +132,8 @@
   border-color: rgb(3, 87, 0);
   padding: 10px;
 }
+.aboutUs-Des h5,
+.aboutUs-Des li,
+.aboutUs-Des h6 {
+  margin-top: 15px;
+}
