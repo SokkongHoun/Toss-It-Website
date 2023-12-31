@@ -1,6 +1,11 @@
+.menu-nav {
+  margin-top: 15px;
+}
 .menu-nav a {
+  text-align: center;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 .menu-nav a:hover {
   color: green;
@@ -14,20 +19,30 @@
 .container .deliver-container {
   margin-top: 50px;
 }
+.deliver-container h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .deliver-btn {
   margin-top: 20px;
   text-align: center;
 }
 .deliver-btn button {
   border: none;
-  background-color: #39db4a;
-  color: white;
+  background-color: black;
   border-radius: 5px;
   font-size: 1em;
   height: 40px;
   width: 140px;
-  box-shadow: 0px 8px 15px rgba(32, 182, 47, 0.274);
-  text-decoration: none;
+}
+.deliver-btn a {
+  color: white;
+}
+.deliver-btn a:hover,
+.deliver-btn a:active {
+  color: #39db4a;
 }
 .item-x {
   display: flex;
@@ -49,9 +64,9 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: calc(10px + 0.5vw);
+  font-size: 1em;
 }
 .menu-price-x {
   margin-top: -10px;
-  font-size: 14px;
+  font-size: 1em;
 }

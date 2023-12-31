@@ -34,7 +34,7 @@
     font-weight: bold;
   }
   .description-recommend {
-    display: -webkit-scrollbar-button;
+    display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -48,15 +48,18 @@
 
 /* Mobile */
 @media only screen and (max-width: 700px) {
-  .header-text p {
-    font-size: 1em;
+  .header-text {
+    margin-top: 10px;
   }
   .header-text h1 {
     font-size: 2em;
     font-weight: bold;
   }
+  .header-text p {
+    font-size: 1em;
+  }
   .description-recommend {
-    display: -webkit-scrollbar-button;
+    display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -65,6 +68,34 @@
     width: 100px;
     height: 100px;
     object-fit: contain;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header-text {
+    margin-top: 10px;
+  }
+  .header-text h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .header-text p {
+    font-size: 0.855em;
+  }
+  .description-recommend {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .recommend-col-x-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .explore-btn {
+    height: 30px;
+    width: 100px;
+    font-size: 0.855em;
   }
 }
 .banner-container img {
@@ -158,9 +189,9 @@
 
 .story-box-container {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
+  grid-template-columns: repeat(2, 195px);
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
 }
 .story-box {
   display: flex;
@@ -180,5 +211,5 @@
 .story-box-container p {
   font-size: 0.865em;
   padding: 7px;
-  color: #39db4a;
+  color: rgb(9, 102, 51);
 }
