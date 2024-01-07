@@ -22,7 +22,10 @@
 .social-media-btm-nav a {
   display: inline-block;
 }
-
+.telephone-num {
+  cursor: pointer;
+  margin-left: 5px;
+}
 @media only screen and (max-width: 800px) {
   .btm-nav .tossitlogo {
     width: 70px;
@@ -32,6 +35,9 @@
   }
   .btm-nav {
     font-size: 13px;
+  }
+  .telephone-num {
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 400px) {
