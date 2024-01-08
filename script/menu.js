@@ -90,14 +90,14 @@ export const sidesMenu = [
     name: "Egg Mayo",
     discountPriceCents: "200",
     priceCents: "100",
-    img: "/pictures/sides/eggmayo.png",
+    img: "pictures/sides/eggmayo.png",
   },
   {
     id: "sidejkndkv73*(&&@UHjk",
     name: "Falafel",
     discountPriceCents: "200",
     priceCents: "100",
-    img: "/pictures/sides/falafel.png",
+    img: "pictures/sides/falafel.png",
   },
   {
     id: "sidemlkdnv8745tnj&*(@",
