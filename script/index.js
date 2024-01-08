@@ -1,5 +1,5 @@
 import { SaladMenu, WrapMenu, mueslisMenu, sidesMenu } from "../data/menu.js";
-import { formatCurrency } from "../data/utils/moneyConverter.js";
+import { formatCurrency } from "../data/moneyconverter.js";
 function renderMenu(menu) {
   let menuHTML = "";
 
