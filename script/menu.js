@@ -63,24 +63,24 @@ export const WrapMenu = [
 export const mueslisMenu = [
   {
     id: "muelsijdkfjheuu124$",
-    name: "Vegan Nuts",
+    name: "YM1. Seasonal Fruits - Yogurt/Muesli",
     discountPriceCents: "550",
     priceCents: "275",
-    img: "pictures/our mueslis/m1.png",
+    img: "pictures/our mueslis/ym1.jpg",
   },
   {
     id: "x,mcvkjsgdui328*&$@",
-    name: "Fruits & Berries Muesli",
+    name: "YM2. Going Nuts - Yogurt/Muesli",
     discountPriceCents: "775",
     priceCents: "388",
-    img: "pictures/our mueslis/m2.png",
+    img: "pictures/our mueslis/ym2.jpg",
   },
   {
     id: "mc,bvz*^Y$HJKJsuhjfd",
-    name: "Power Protein Muesli",
+    name: "YM3. Chocolate & Coconut - Yogurt/Muesli",
     discountPriceCents: "850",
     priceCents: "425",
-    img: "pictures/our mueslis/m3.png",
+    img: "pictures/our mueslis/ym3.jpg",
   },
 ];
 
