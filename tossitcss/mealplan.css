@@ -116,7 +116,7 @@
 .group-program-description {
   text-align: center;
   padding-top: 20px;
-  margin: 3px;
+  margin: 5px;
 }
 .single-program-description,
 .group-program-description {
@@ -187,7 +187,7 @@
   font-size: 1.1em;
 }
 .group-program-description h6 {
-  text-wrap: nowrap;
+  text-wrap: wrap;
 }
 .single-program p,
 .group-program-description p {
