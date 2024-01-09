@@ -46,8 +46,19 @@
     width: 120%;
   }
 }
-
+.abtus1-2-row div {
+  padding: 20px 20px;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.46);
+}
 @media only screen and (max-width: 800px) {
+  .abtus1-2-row div {
+    margin: 10px;
+  }
   .header-text-container {
     text-align: center;
   }
@@ -87,6 +98,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 .img-container img {
   width: 100%;
@@ -104,12 +116,12 @@
 .group-program-description {
   text-align: center;
   padding-top: 20px;
-  margin: 10px;
+  margin: 3px;
 }
 .single-program-description,
 .group-program-description {
   background: rgba(255, 255, 255, 0.45);
-  border-radius: 16px;
+  border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -128,17 +140,16 @@
   color: white;
 }
 .how-it-work-container {
+  padding: 10px;
   border: solid;
   border-width: 1px;
-  border-color: rgb(3, 87, 0);
-  padding: 10px;
 }
 .aboutUs-Des h5,
-.aboutUs-Des li,
+.aboutUs-Des p,
 .aboutUs-Des h6 {
   margin-top: 15px;
 }
-.aboutUs-Des li {
+.aboutUs-Des p {
   font-size: 1em;
 }
 .aboutUs-Des h5,
@@ -157,17 +168,14 @@
   height: 30px;
   margin-bottom: 10px;
 }
-.group-program-description {
-  height: auto;
-}
 .group-program-description button {
   width: 100%;
   border-radius: 10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.863);
   border: none;
-  margin-bottom: 10px;
   height: 30px;
+  margin-bottom: 10px;
 }
 .single-program .row {
   display: flex;
@@ -175,7 +183,11 @@
 }
 .single-program h6,
 .group-program-description h6 {
+  text-align: center;
   font-size: 1.1em;
+}
+.group-program-description h6 {
+  text-wrap: nowrap;
 }
 .single-program p,
 .group-program-description p {
