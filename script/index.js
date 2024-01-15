@@ -1,5 +1,4 @@
 import { SaladMenu, WrapMenu, mueslisMenu, sidesMenu } from "./menu.js";
-import { formatCurrency } from "./moneyconvert.js";
 
 function renderMenu(menu) {
   let menuHTML = "";
@@ -12,7 +11,6 @@ function renderMenu(menu) {
         </div>
         <div>
           <p class="menu-name-x">${item.name}</p>
-          <p class="menu-price-x">$${formatCurrency(item.priceCents)}</p>
         </div>
       </div>`;
   });
