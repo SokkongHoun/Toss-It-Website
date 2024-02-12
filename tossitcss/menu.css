@@ -25,25 +25,6 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.deliver-btn {
-  margin-top: 20px;
-  text-align: center;
-}
-.deliver-btn button {
-  border: none;
-  background-color: black;
-  border-radius: 5px;
-  font-size: 1em;
-  height: 40px;
-  width: 140px;
-}
-.deliver-btn a {
-  color: white;
-}
-.deliver-btn a:hover,
-.deliver-btn a:active {
-  color: #39db4a;
-}
 .item-x {
   display: flex;
   text-align: center;
@@ -69,4 +50,17 @@
 .menu-price-x {
   margin-top: -10px;
   font-size: 1em;
+}
+.qr-menu-container img {
+  width: 100%;
+}
+.menu-link {
+  bottom: 12%; /* Adjust as needed */
+  left: 31%; /* Adjust as needed */
+  transform: translateX(-50%); /* Center the link horizontally */
+  font-size: 0.765rem;
+  color: white;
+}
+.menu-link:hover {
+  color: white;
 }

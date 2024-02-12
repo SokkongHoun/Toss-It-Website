@@ -16,11 +16,6 @@
   justify-content: center;
   align-items: center;
 }
-.single-program-description {
-  padding: 10px;
-  margin: 5px;
-  text-align: center;
-}
 .header-mealplan-image img {
   width: 100%;
 }
@@ -74,15 +69,6 @@
   .header-mealplan-image img {
     width: 100%;
   }
-  .single-program-description {
-    text-align: center;
-    background: rgba(255, 255, 255, 0.45);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.46);
-  }
 }
 .learn-more-btn {
   border: none;
@@ -109,24 +95,6 @@
   justify-content: center;
 }
 
-.group-program .row {
-  display: flex;
-  justify-content: center;
-}
-.group-program-description {
-  text-align: center;
-  padding-top: 20px;
-  margin: 5px;
-}
-.single-program-description,
-.group-program-description {
-  background: rgba(255, 255, 255, 0.45);
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.46);
-}
 .telegram-css button {
   border: none;
   background-color: #39db4a;
@@ -156,58 +124,77 @@
 .aboutUs-Des h6 {
   font-size: 1.4em;
 }
-.single-program-description a {
-  text-decoration: none;
+
+.pricing-container {
+  background: #e1e0e054;
+  box-shadow: inset 5px 5px 6px #bfbfbf, inset -6px -6px 7px #8f8f8f79;
+  @media screen and (max-width: 500px) {
+    h5 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 0.855rem;
+    }
+  }
+  @media screen and (min-width: 575px) {
+    border-radius: 19px;
+  }
 }
-.single-program-description button {
-  width: 100%;
-  border: none;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.863);
-  color: white;
-  height: 30px;
-  margin-bottom: 10px;
+.meal-plan-package-detail {
+  padding: 20px;
+  & .register-btn {
+    width: 65%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background: #39db4a;
+    & a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  & .register-btn:active {
+    transform: translateY(1px);
+  }
+
+  & .meal-plan-term-condition {
+    color: rgb(139, 139, 139);
+    font-size: 0.8rem;
+  }
 }
-.group-program-description button {
-  width: 100%;
-  border-radius: 10px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.863);
-  border: none;
-  height: 30px;
-  margin-bottom: 10px;
+
+.price-plan-container {
+  padding: 20px;
+  & p {
+    font-size: 0.855rem;
+  }
+  & h4 {
+    font-size: 1rem;
+  }
+  & .price-plan-1 {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(4.4px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    & p,
+    h4 {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+    .discount-val {
+      display: block;
+      color: rgb(139, 139, 139);
+    }
+  }
 }
-.single-program .row {
-  display: flex;
-  justify-content: center;
-}
-.single-program h6,
-.group-program-description h6 {
-  text-align: center;
-  font-size: 1.1em;
-}
-.group-program-description h6 {
-  text-wrap: wrap;
-}
-.single-program p,
-.group-program-description p {
-  font-size: 0.9em;
-}
-.control-price button {
-  color: white;
-  border: none;
-  width: 100px;
-  height: 40px;
-}
-.individual-btn {
-  display: inline-block;
-  margin-right: -5px;
-  background-color: #39db4a;
-}
-.group-btn {
-  display: inline-block;
-  background-color: rgb(32, 32, 32);
-}
-.group-program {
-  display: none;
+.term-condition-text {
+  margin-bottom: 2px;
 }

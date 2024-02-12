@@ -10,9 +10,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="canonical" href="https://tossitkh.com/mealplan.html" />
     <link rel="stylesheet" href="tossitcss/main.css" />
     <link rel="stylesheet" href="tossitcss/mealplan.css" />
-    <title>Meal Plan</title>
+    <title>Toss It! - Your Personalized Meal Plans</title>
   </head>
   <body>
     <div>
@@ -20,9 +21,10 @@
         <div class="container-fluid container-xxl container-xl container-lg">
           <a class="navbar-brand" href="index.html"
             ><img
-              src="pictures/icon pic/tossitlogogreen.png"
+              src="pictures/icon pic/tossitlogogreen.jpg"
               width="50"
               height="50"
+              alt="Toss It! logo"
           /></a>
           <button
             class="navbar-toggler"
@@ -75,7 +77,10 @@
             </div>
             <div class="col-10 col-md-6 header-img-container">
               <div class="header-mealplan-image">
-                <img src="pictures/icon pic/mealplanbanner.png" />
+                <img
+                  src="pictures/icon pic/mealplanbanner.png"
+                  alt="Toss It! meal plan banner"
+                />
               </div>
             </div>
           </div>
@@ -89,9 +94,10 @@
                   src="pictures/icon pic/fresh.png"
                   width="50px"
                   height="50px"
+                  aria-keyshortcuts="fresh icon"
                 />
                 <p>
-                  <b>Freshly made and sourced products</b>
+                  <b>Freshly made and locally sourced products</b>
                 </p>
               </div>
               <div class="icon-description"></div>
@@ -102,6 +108,7 @@
                   src="pictures/icon pic/moneyback.png"
                   width="50px"
                   height="50px"
+                  alt="money back icon"
                 />
                 <p><b>Trial program with money-back guarantee</b></p>
               </div>
@@ -113,6 +120,7 @@
                   src="pictures/icon pic/weeklyselection.png"
                   width="50px"
                   height="50px"
+                  alt="weekly menu icon"
                 />
                 <p>
                   <b>New weekly meal selection for your taste buds</b>
@@ -126,6 +134,7 @@
                   src="pictures/icon pic/subscription.png"
                   width="50px"
                   height="50px"
+                  alt="subscription icon"
                 />
                 <p>
                   <b>Win up to $149 fitness subscription values</b>
@@ -146,6 +155,7 @@
                   src="pictures/icon pic/choosing.png"
                   width="50px"
                   height="50px"
+                  alt="choose meal icon"
                 />
                 <p>Choose the meal that you want to have for the day</p>
               </div>
@@ -157,6 +167,7 @@
                   src="pictures/icon pic/preparing.png"
                   width="50px"
                   height="50px"
+                  alt="prepare food icon"
                 />
                 <p>Order your meal the day before 12pm</p>
               </div>
@@ -168,8 +179,9 @@
                   src="pictures/icon pic/deliver.png"
                   width="50px"
                   height="50px"
+                  alt="delivery icon"
                 />
-                <p>Free delivery for our subscriber</p>
+                <p>Free Delivery for Orders with 3+ meals</p>
               </div>
               <div class="icon-description"></div>
             </div>
@@ -179,6 +191,7 @@
                   src="pictures/icon pic/cancel order.png"
                   width="50px"
                   height="50px"
+                  alt="cancel order icon"
                 />
                 <p>Cancel orders free before 12pm the prior day</p>
               </div>
@@ -198,7 +211,11 @@
               </h5>
               <div class="row abtus1-2-row">
                 <div class="col-md-5 col-12">
-                  <img src="pictures/icon pic/abtus1.png" width="90px" />
+                  <img
+                    src="pictures/icon pic/abtus1.png"
+                    width="90px"
+                    alt="fresh and local icon"
+                  />
                   <h3 style="text-wrap: nowrap">Fresh and Local</h3>
                   <p>
                     Choose your meals from our new weekly selection, featuring
@@ -209,7 +226,11 @@
                   </p>
                 </div>
                 <div class="col-md-5 col-12">
-                  <img src="pictures/icon pic/abtus2.png" width="90px" />
+                  <img
+                    src="pictures/icon pic/abtus2.png"
+                    width="90px"
+                    alt="vegan icon"
+                  />
                   <h3 style="text-wrap: nowrap">Vegan menu for all</h3>
                   <p>
                     Our menu is filled with a variety of vegan recipes and
@@ -223,7 +244,10 @@
               </div>
               <div class="col-md img-aboutUS">
                 <div class="img-container">
-                  <img src="pictures/icon pic/mealkit.png" />
+                  <img
+                    src="pictures/icon pic/mealkit.png"
+                    alt="meal plan banner"
+                  />
                 </div>
               </div>
               <h5>
@@ -247,102 +271,85 @@
               </p>
             </div>
           </div>
-          <button class="individual-btn js-indi-btn">Individual</button>
-          <button class="group-btn js-grp-btn">Group</button>
         </div>
-        <div class="container single-program js-single">
-          <h3 style="text-align: center; margin-top: 40px">
-            Individual Subscription
-          </h3>
-          <div class="row">
-            <div
-              class="col-xxl col-xl col-md-3 col-sm-3 col-5 single-program-description"
-            >
-              <div>
-                <h6>TRIAL</h6>
-                <p>(1 MEAL) <br />MONEY BACK <br />GUARANTEE** <br /></p>
-                <p style="margin-top: 22px">4.5/MEAL</p>
-                <a href="https://shorturl.at/mBRTY" target="_blank"
-                  ><button>Register</button></a
-                >
+        <div class="container pricing-container">
+          <div class="row d-flex justify-content-center mt-3">
+            <div class="col-md-4 col meal-plan-package-detail d-flex flex-column">
+              <h5>Meal Plan Packages</h5>
+              <p>Save up to 70$ Buy 20+ Meals & get 15% off <br>on Addons & Drinks!</p>
+              <button class="register-btn"><a href="https://forms.gle/zSi5XT5PHJykavGj7" target="_blank">Register</a></button>
+              <div class="meal-plan-term-condition mt-auto">
+                <p class="term-condition-text">**Terms and conditions APPLY</p>
+                <p>**Meal plans have no expiration date</p>
               </div>
             </div>
-            <div
-              class="col-xxl col-xl col-md-3 col-sm-3 col-5 single-program-description"
-            >
-              <h6>PREMIUM</h6>
-              <p>
-                (21 MEALS) <br />10% OFF INCL. <br />1 FREE MEAL <br />81.0
-                <br />3.9/MEAL
-              </p>
-              <a href="https://shorturl.at/mBRTY" target="_blank"
-                ><button>Register</button></a
-              >
-            </div>
-            <div
-              class="col-xxl col-xl col-md-3 col-sm-3 col-10 single-program-description"
-            >
-              <h6 style="color: rgb(9, 102, 51)">BEST VALUE</h6>
-              <p>
-                (44 MEALS) <br />15% OFF INCL. <br />4 FREE MEALS <br />153.0
-                <br />3.5/MEAL
-              </p>
-              <a href="https://shorturl.at/mBRTY" target="_blank"
-                ><button>Register</button></a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="container group-program js-grp">
-          <h3 style="text-align: center; margin-top: 40px">
-            Group Subscription
-          </h3>
-          <div class="row">
-            <div class="col-md-3 col-3 group-program-description">
-              <div>
-                <h6>3-5 PEOPLE</h6>
-                <p>10% OFF</p>
-                <p>4.1/MEAL</p>
+            <div class="col-md-4 col price-plan-container">
+              <div class="price-plan-1">
+                <div>
+                  <h4>1</h4>
+                <p class="discount-val">Meal</p>
+                </div>
+                <div>
+                  <h4>4.9</h4>
+                  <p>USD</p>
+                </div>
               </div>
-              <a href="https://shorturl.at/mBRTY" target="_blank"
-                ><button>Register</button></a
-              >
-            </div>
-            <div class="col-md-3 col-3 group-program-description">
-              <div>
-                <h6>6-10 PEOPLE</h6>
-                <p>15% OFF</p>
-                <p>3.85/MEAL</p>
+              <div class="price-plan-1">
+                <div>
+                  <h4>5 </h4>
+                <p class="discount-val">Meals</p>
+                </div>
+                <div>
+                  <h4>22.5</h4>
+                  <p>USD</p>
+                  <span class="discount-val"><del>24.5</del></span>
+                </div>
               </div>
-              <a href="https://shorturl.at/mBRTY" target="_blank"
-                ><button>Register</button></a
-              >
-            </div>
-            <div class="col-md-3 col-3 group-program-description">
-              <div>
-                <h6>11-15 PEOPLE</h6>
-                <p>20% OFF</p>
-                <p>3.6/MEAL</p>
+              <div class="price-plan-1">
+                <div>
+                  <h4>10</h4>
+                <p class="discount-val">Meals</p>
+                </div>
+                <div>
+                  <h4>39.9</h4>
+                  <p>USD</p>
+                  <span class="discount-val"><del>49.9</del></span>
+                </div>
               </div>
-              <a href="https://shorturl.at/mBRTY" target="_blank"
-                ><button>Register</button></a
-              >
-            </div>
-            <div class="col-md-3 col-3 group-program-description">
-              <div>
-                <h6>15+ PEOPLE</h6>
-                <p>BUFFET <br />CUSTOM MENU-TBC</p>
+              <div class="price-plan-1">
+                <div>
+                  <h4>20</h4>
+                <p class="discount-val">Meals</p>
+                </div>
+                <div>
+                  <h4>74.9</h4>
+                  <p>USD</p>
+                  <span class="discount-val"><del>98.0</del></span>
+                </div>
               </div>
-              <a href="https://shorturl.at/mBRTY" target="_blank"
-                ><button>Register</button></a
-              >
+              <div class="price-plan-1">
+                <div>
+                  <h4>50</h4>
+                <p class="discount-val">Meals</p>
+                </div>
+                <div>
+                  <h4>175</h4>
+                  <p>USD</p>
+                  <span class="discount-val"><del>245</del></span>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
         <div class="container">
           <div class="row" style="margin-top: 40px">
             <div class="col">
-              <img src="pictures/icon pic/telegramIcon.png" width="100%" />
+              <img
+                src="pictures/icon pic/telegramIcon.png"
+                width="100%"
+                alt="telegram icon"
+              />
             </div>
             <div
               class="col d-flex align-items-center justify-content-center telegram-css"
@@ -364,7 +371,7 @@
             </div>
           </div>
         </div>
-        <nav class="container" style="margin-top: 50px">
+        <footer class="container" style="margin-top: 50px">
           <div class="row btm-nav">
             <div class="col">
               <img
@@ -374,15 +381,15 @@
               />
               <div class="social-media-btm-nav">
                 <a href="https://web.facebook.com/tossitkh" target="_blank"
-                  ><img src="pictures/icon pic/fb.png" width="30px"
+                  ><img src="pictures/icon pic/fb.jpg" width="30px"
                 /></a>
                 <a
                   href="https://www.instagram.com/tossitkh/?hl=en"
                   target="_blank"
-                  ><img src="pictures/icon pic/ig.png" width="30px"
+                  ><img src="pictures/icon pic/ig.jpg" width="30px"
                 /></a>
                 <a href="https://t.me/Toss_It_BKK3" target="_blank"
-                  ><img src="pictures/icon pic/tele.png" width="30px"
+                  ><img src="pictures/icon pic/tele.jpg" width="30px"
                 /></a>
               </div>
             </div>
@@ -404,7 +411,7 @@
               </div>
             </div>
           </div>
-        </nav>
+        </footer>
       </div>
     </div>
 
@@ -413,6 +420,5 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="script/mealplan.js"></script>
   </body>
 </html>
